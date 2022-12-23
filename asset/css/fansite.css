@@ -78,7 +78,7 @@ body{
     margin-top: 130px;
     padding-bottom: 10%;
     width: 100%;
-    background: linear-gradient(41deg, rgba(0,0,0,1) 0%, rgba(183,20,19,1) 100%);
+    background: linear-gradient(60deg, rgba(0,0,0,1) 0%, rgba(183,20,19,1) 100%);
 }
 
 /****** BANNER ******/
@@ -178,9 +178,30 @@ body{
     box-sizing: border-box;
 }
 
+/****** FOOTER ******/
+
 .foot{
     height: 150px;
     width: 100%;
     display: flex;
     background-color: black;
+}
+
+.foot-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 2% 2% 4% 2%;
+    box-sizing: border-box;
+}
+
+.foot-img{
+    height: 80%;
+    width: 150px;
+    display: flex;
+}
+
+.foot-img>img{
+    width: 100%;
+    height: 100%;
 }
